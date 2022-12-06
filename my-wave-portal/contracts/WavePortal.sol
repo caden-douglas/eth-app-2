@@ -10,9 +10,9 @@ contract WavePortal {
     event NewWave(address indexed from, uint256 timestamp, string message);
 
     struct Wave {
-        address waver; // The address of the user who waved.
-        string message; // The message the user sent.
-        uint256 timestamp; // The timestamp when the user waved.
+        address waver; 
+        string message; 
+        uint256 timestamp; 
     }
 
     Wave[] waves;
